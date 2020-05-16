@@ -1,0 +1,1 @@
+"use strict";new Vue({el:"#app",data:{list:["buy groceries","clean the bathroom","get cash"]},methods:{insertItem:function(t){this.list.push(t.target.value),t.target.value=""},del:function(t){this.list.splice(t,1)}}});
